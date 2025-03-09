@@ -3,6 +3,8 @@
 ## Overview
 This project implements a fully automated CI/CD pipeline using Jenkins, Docker, Kubernetes (EKS), and Terraform. The objective is to achieve faster deployments, improve system reliability, and enable real-time observability through centralized monitoring.
 
+![CI/CD Pipeline](https://miro.medium.com/max/1400/1*VdT7FgtIBqu2T26QF5mp4g.png)
+
 ## Features
 - **Optimized CI/CD Pipeline**: Automated deployment process using Jenkins, reducing deployment time by 40%.
 - **Containerization & Orchestration**: Dockerized applications running on Kubernetes (EKS) for scalability and high availability.
@@ -11,6 +13,8 @@ This project implements a fully automated CI/CD pipeline using Jenkins, Docker, 
 - **Real-time Monitoring & Logging**:
   - **Prometheus & Grafana** for performance monitoring and alerting.
   - **ELK Stack** for centralized logging and log analysis.
+
+![Monitoring Stack](https://grafana.com/api/blog/proxy?url=/static/assets/img/blog/2022/grafana-cloud-kubernetes-monitoring.jpg)
 
 ## Technologies Used
 - **CI/CD Tools**: Jenkins
@@ -30,6 +34,8 @@ This project implements a fully automated CI/CD pipeline using Jenkins, Docker, 
 5. Deploy containers to Kubernetes (EKS) using Terraform & Helm
 6. Monitor & analyze system performance with Prometheus, Grafana, and ELK Stack
 ```
+
+![Pipeline Flow](https://www.edureka.co/blog/wp-content/uploads/2019/05/CICD-Pipeline.png)
 
 ## Setup & Deployment
 ### Prerequisites
